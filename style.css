@@ -1,0 +1,39 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.wall {
+  background-image: url(./images/wallPaper.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.wall h1 {
+  color: white;
+  position: relative;
+  font-weight: 700;
+}
+
+.intro {
+  position: relative;
+  top: 17rem;
+  left: 10rem;
+}
+
+.potential {
+  background-image: url(./images/wallPaper.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: yellow;
+  height: 40vh;
+}
+
+footer {
+  height: 50vh;
+  background-color: black;
+}
